@@ -60,6 +60,6 @@ const userSchema = new Schema ({
 }, {timestamps: true})
 
 
-const userModel = model<User>("userColl" , userSchema)
+const userModel = model<User>("users" , userSchema)
 
 export default userModel

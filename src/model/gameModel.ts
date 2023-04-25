@@ -24,6 +24,6 @@ const userSchema = new Schema ({
 }, {timestamps: true})
 
 
-const gameModel = model<User>("userColl" , userSchema)
+const gameModel = model<User>("games" , userSchema)
 
 export default gameModel

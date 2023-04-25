@@ -1,9 +1,10 @@
 import express, { Application, Request, Response } from "express"
 import cors from "cors"
-import { mainApp } from "./App"
-import { dbConfig } from "./config/db"
 
-const PORT = 4000
+import { dbConfig } from "./config/db"
+import { mainApp } from "./app"
+
+const PORT = 5123
 
 
 const app:Application = express()
