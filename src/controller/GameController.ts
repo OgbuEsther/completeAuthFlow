@@ -6,7 +6,7 @@ import bcrypt from "bcrypt"
 
 
 
-export const createUser = async (req: Request, res: Response) => {
+export const createGame = async (req: Request, res: Response) => {
     try {
       const {
         name,
