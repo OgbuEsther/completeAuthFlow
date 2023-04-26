@@ -4,6 +4,7 @@ import cors from "cors"
 import { dbConfig } from "./config/db"
 import { mainApp } from "./app"
 
+
 const PORT = 5123
 
 
